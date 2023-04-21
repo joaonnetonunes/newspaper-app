@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class ConnectionBuilder {
 
     var retrofit: Retrofit = Retrofit.Builder()
-        .baseUrl(Constants.PRIMAY_URL)
+        .baseUrl(Constants.PRIMARY_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
